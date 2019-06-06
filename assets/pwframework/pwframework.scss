@@ -1,0 +1,320 @@
+/*!
+ * PW Framework V1
+ */
+
+/********* COLORS *********/
+$red: #f44336;
+$pink: #e91e63;
+$purple: #9c27b0;
+$deep_purple: #673ab7;
+$indigo: #3f51b5;
+$blue: #2196f3;
+$light_blue: #03a9f4;
+$cyan: #00bcd4;
+$teal: #009688;
+$green: #4caf50;
+$light_green: #8bc34a;
+$lime: #cddc39;
+$yellow: #ffeb3b;
+$amber: #ffc107;
+$orange: #ff9800;
+$deep_orange: #ff5722;
+$brown: #795548;
+$grey: #9e9e9e;
+$light_grey: #eeeeee;
+$blue_grey: #607d8b;
+$black: #000000;
+$white: #ffffff;
+
+/********* OPACITIES *********/
+.op-0 {
+  opacity: 0;
+}
+
+.op-25 {
+  opacity: 0.25;
+}
+
+.op-50 {
+  opacity: 0.5;
+}
+
+.op-75 {
+  opacity: 0.75;
+}
+
+/********* BG *********/
+.bg-tertairy {
+  background-color: darken($primary, 10%) !important;
+}
+
+.bg-red {
+  background-color: $red !important;
+}
+
+.bg-pink {
+  background-color: $pink !important;
+}
+
+.bg-purple {
+  background-color: $purple !important;
+}
+
+.bg-deep_purple {
+  background-color: $deep_purple !important;
+}
+
+.bg-indigo {
+  background-color: $indigo !important;
+}
+
+.bg-blue {
+  background-color: $blue !important;
+}
+
+.bg-light_blue {
+  background-color: $light_blue !important;
+}
+
+.bg-cyan {
+  background-color: $cyan !important;
+}
+
+.bg-teal {
+  background-color: $teal !important;
+}
+
+.bg-green {
+  background-color: $green !important;
+}
+
+.bg-light_green {
+  background-color: $light_green !important;
+}
+
+.bg-lime {
+  background-color: $lime !important;
+}
+
+.bg-yellow {
+  background-color: $yellow !important;
+}
+
+.bg-amber {
+  background-color: $amber !important;
+}
+
+.bg-orange {
+  background-color: $orange !important;
+}
+
+.bg-deep_orange {
+  background-color: $deep_orange !important;
+}
+
+.bg-brown {
+  background-color: $brown !important;
+}
+
+.bg-grey {
+  background-color: $grey !important;
+}
+
+.bg-light_grey {
+  background-color: $light_grey !important;
+}
+
+.bg-blue_grey {
+  background-color: $blue_grey !important;
+}
+
+.bg-black {
+  background-color: $black !important;
+}
+
+.bg-white {
+  background-color: $white !important;
+}
+
+/********* TEXT *********/
+.text-tertairy {
+  color: darken($primary, 10%) !important;
+}
+
+.text-red {
+  color: $red !important;
+}
+
+.text-pink {
+  color: $pink !important;
+}
+
+.text-purple {
+  color: $purple !important;
+}
+
+.text-deep_purple {
+  color: $deep_purple !important;
+}
+
+.text-indigo {
+  color: $indigo !important;
+}
+
+.text-blue {
+  color: $blue !important;
+}
+
+.text-light_blue {
+  color: $light_blue !important;
+}
+
+.text-cyan {
+  color: $cyan !important;
+}
+
+.text-teal {
+  color: $teal !important;
+}
+
+.text-green {
+  color: $green !important;
+}
+
+.text-light_green {
+  color: $light_green !important;
+}
+
+.text-lime {
+  color: $lime !important;
+}
+
+.text-yellow {
+  color: $yellow !important;
+}
+
+.text-amber {
+  color: $amber !important;
+}
+
+.text-orange {
+  color: $orange !important;
+}
+
+.text-deep_orange {
+  color: $deep_orange !important;
+}
+
+.text-brown {
+  color: $brown !important;
+}
+
+.text-grey {
+  color: $grey !important;
+}
+
+.text-light_grey {
+  color: $light_grey !important;
+}
+
+.text-blue_grey {
+  color: $blue_grey !important;
+}
+
+.text-black {
+  color: $black !important;
+}
+
+.text-white {
+  color: $white !important;
+}
+
+/********* TEXT SIZE *********/
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-19 {
+  font-size: 19px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-21 {
+  font-size: 21px;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.fs-23 {
+  font-size: 23px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+
+.fs-26 {
+  font-size: 26px;
+}
+
+.fs-27 {
+  font-size: 27px;
+}
+
+.fs-28 {
+  font-size: 28px;
+}
+
+.fs-29 {
+  font-size: 29px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-31 {
+  font-size: 31px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.fs-33 {
+  font-size: 33px;
+}
+
+.fs-34 {
+  font-size: 34px;
+}
+
+.fs-35 {
+  font-size: 35px;
+}
+
+.fs-36 {
+  font-size: 36px;
+}
+

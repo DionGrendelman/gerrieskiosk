@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,800,900');
+
+$primary: #3E9427;
+$secondary: white;
+$success: #00c354;
+$dark: #191918;
+$font-family-sans-serif: 'Poppins', sans-serif !default;
+$font-family-monospace: 'Poppins', sans-serif !default;
+$font-family-base: 'Poppins', sans-serif !default;
+$btn-border-radius: 7px;
+$input-border-radius: 8px;
+
+/* FORM CONTROL */
+.form-control:focus {
+  box-shadow: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.3) !important;
+}
+
+.bordered{
+  border-radius:10px;
+}
+
+.form-control {
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+ul li a{
+  color:white!important;
+}
+.mobile_nav ul li a{
+  color:black!important;
+}
+
+body{
+  background-image: url('../media/speeltuin.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ----------- */
+
+@import "../bootstrap/scss/bootstrap";
+/*A TAG*/
+a:focus {
+  outline: 0;
+}
+body .navbar-light .navbar-toggler span{
+  color:white!important;
+}
+body .navbar-light .navbar-toggler{
+  color:white!important;
+  border:white!important;
+}
+/**/
+/*Custom BG*/
+.bg-tertairy {
+  background-color: #236d2c !important;
+}
+
+/**/
+
+/* FORM CONTROL */
+.navbar-nav .active a {
+  color: $secondary!important;
+  font-weight: bold;
+}
+.mobile_nav .active a {
+  color: $primary!important;
+  font-weight: bold;
+}
+.navbar-nav a {
+  font-size:20px;
+}
+.navbar-nav a:hover {
+  opacity: 0.5!important;
+}
+
+.nav-link {
+  padding: .8rem 1rem;
+}
+
+/* ----------- */
+
+/*Home items*/
+.home_items .head {
+  height: 80px;
+}
+
+.home_items {
+  background-color: $dark;
+  min-height: 300px;
+}
+
+.home_items .line {
+  width: 100%;
+  height: 5px;
+  background: $secondary;
+}
+
+.home_items .title {
+  font-size: 25px;
+}
+
+.home_items .imagefocus {
+  outline: 0;
+}
+
+/* ---------- */
+/*Widgets*/
+footer .widget {
+  flex: 1;
+  color: $white;
+  font-size:15px;
+  padding:10px;
+}
+
+footer .widget .widget-title {
+  color: $secondary;
+  font-size:22px;
+}
+
+/*---------*/
+
+/*Footer Promo*/
+.promo {
+  color: #c8ccca;
+}
+
+/**/
+
+/*Social*/
+.social {
+  color: white !important;
+  font-size: 50px;
+  margin-right: 5px;
+  transition: 0.3s;
+}
+
+.social:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+/**/
+
+/*Nav icon*/
+.navbar-dark .navbar-toggler {
+
+  border-color: transparent;
+
+}
+
+.navbar-dark .navbar-toggler:focus {
+  border: none;
+  outline: 0;
+}
+
+/**/
+
+/*Port item*/
+.port_item:hover{
+}
+.port_item:hover:after {
+  opacity: 1;
+}
+.port_item:after {
+  content: '';
+  position: absolute;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  background: -webkit-linear-gradient(-30deg, rgba(40, 128, 50, 0.8) 50%, transparent 50%);
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index:5;
+}
+.port_item {
+  transition: all 0.3s ease-in-out;
+
+  height: 200px;
+  width: 100%;
+  top: 0;
+  background: -webkit-linear-gradient(-30deg, transparent 50%, rgba(40, 128, 50, 0.8) 50%);
+}
+.port_item h3{
+  z-index:2000;
+}
+
+.port_item_second:hover{
+}
+.port_item_second:hover:after {
+  opacity: 1;
+}
+.port_item_second:after {
+  content: '';
+  position: absolute;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  background: -webkit-linear-gradient(-30deg, rgba(40, 128, 50, 0.8) 50%, transparent 50%);
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index:5;
+}
+.port_item_second {
+  transition: all 0.3s ease-in-out;
+
+  height: 200px;
+  width: 100%;
+  top: 0;
+  background: -webkit-linear-gradient(-30deg, transparent 50%, rgba(40, 128, 50, 0.8) 50%);
+}
+/**/
+
+/*Gallery*/
+.gallery{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.gallery .gallery-item .gallery-icon{
+  padding:20px;
+}
+.gallery .gallery-item{
+  padding:0;
+  margin:0;
+  flex:0 33%;
+  height:300px;
+}
+.gallery .gallery-item .gallery-icon,.gallery a,#gallery-1 img{
+  height:100%;
+  width:100%;
+}
+.gallery img{
+  object-fit: cover;
+  width:100%;
+  height: 100%;
+}
+@media (max-width: 767.98px) {
+  .gallery .gallery-item{
+    padding:0;
+    margin:0;
+    flex:100%;
+    height:400px;
+  }
+}
+/**/
+
+/*Form*/
+.wpcf7,.wpcf7 label,.wpcf7 span,.wpcf7 input,.wpcf7 textarea{
+  width:100%;
+}
+/**/
+
+/*Form Error handling*/
+.wpcf7-mail-sent-ok{
+  border:none;
+  background: $success;
+  color:white;
+  border-radius:8px;
+}
+.wpcf7-spam-blocked{
+  border:none;
+  background: $danger;
+  color:white;
+  border-radius:8px;
+}
+.wpcf7-validation-errors, .wpcf7-acceptance-missing{
+  border:none;
+  background: $warning;
+  color:white;
+  border-radius:8px;
+}
+.div.wpcf7-response-output{
+  margin:0;
+}
+.wpcf7-response-output{
+  margin:0!important;
+}
+
+/**/

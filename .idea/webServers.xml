@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="db3fd134-2bd9-4b54-80ba-2adfc5ef804b" name="ftp" url="http://complexpc.nl">
+        <fileTransfer host="complexpc.nl" port="21" rootFolder="/domains/complexpc.nl/private_html/con/gerrieskiosk/wp-content/themes/Vakantiehuisvlagtwedde">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f82ebfb6-573f-4b50-b59b-0fa6c529c15c" name="ftplive" url="http://bakkermachinery.nl">
+        <fileTransfer host="bakkermachinery.nl" port="21" rootFolder="/public_html/wp-content/themes/BakkerMachinery">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

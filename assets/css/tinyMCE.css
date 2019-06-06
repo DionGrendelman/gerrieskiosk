@@ -1,0 +1,31 @@
+::selection {
+	background-color: #28669D;
+	color: #FFF;
+}
+::-moz-selection {
+	background-color: #28669D;
+	color: #FFF;
+}
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	padding: 25px;
+}
+a {
+	color: #28669D;
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+a img {
+	border: 0px;
+}
+iframe {
+	max-width: 100%;
+}
+.clear {
+	clear: both;
+}
+* {
+	box-sizing: border-box;
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFCC07;stroke:#0300FB;stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:#0403FC;}
+	.st2{fill:#0300FB;}
+	.st3{fill:none;stroke:#FFCC07;stroke-width:20;stroke-linecap:round;stroke-miterlimit:10;}
+	.st4{fill:#FFCC07;stroke:#333333;stroke-width:2;stroke-miterlimit:10;}
+	.st5{font-family:'Corbel-Italic';}
+	.st6{font-size:171.6143px;}
+</style>
+<g>
+	<g>
+		<circle class="st0" cx="194.9" cy="382" r="135.7"/>
+		<circle class="st0" cx="605.1" cy="382" r="135.7"/>
+		<circle class="st1" cx="398.7" cy="240.4" r="135.7"/>
+	</g>
+	<path class="st2" d="M210.4,327.4c-7.9,0-14.3,6.4-14.3,14.3v20.8h-20.8v-20.8c0-7.9-6.4-14.3-14.3-14.3s-14.3,6.4-14.3,14.3v72.7
+		c0,7.9,6.4,14.3,14.3,14.3s14.3-6.4,14.3-14.3v-19.5h20.8v19.5c0,7.9,6.4,14.3,14.3,14.3s14.3-6.4,14.3-14.3v-72.7
+		C224.7,333.8,218.3,327.4,210.4,327.4z"/>
+	<g>
+		<path class="st2" d="M628,429.2c-10.5,0-26.8-2-39.3-12.7c-7.3-6.2-15.9-18-15.9-38.4c0-20.5,8.7-32.1,16-38.2
+			c19-15.9,46.8-11.5,49.9-10.9c7.1,1.3,11.8,8,10.5,15.1c-1.3,7-8,11.7-15,10.5c-5.2-0.9-20.5-1.7-28.8,5.3
+			c-4.5,3.8-6.6,9.7-6.6,18.2c0,8.6,2.2,14.8,6.9,18.7c8.5,7.3,24,6.8,28.8,6.1c7.1-1.1,13.7,3.8,14.8,10.9
+			c1.1,7.1-3.8,13.7-10.9,14.8C637.2,428.7,633.4,429.2,628,429.2z"/>
+	</g>
+	<path class="st3" d="M376.6,283.3v-76.6h31.2c0,0,16.9-1.3,16.9,20.8s-20.8,16.9-20.8,16.9"/>
+	<g>
+		<text transform="matrix(0.8176 0 0 1.01 176.6826 653.7788)" class="st4 st5 st6">Holland</text>
+	</g>
+</g>
+</svg>

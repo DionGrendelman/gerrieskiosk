@@ -1,0 +1,58 @@
+#account {
+  &:hover > .dropdown_account {
+    transition: 0.3s;
+    display:flex;
+  }
+}
+
+.dropdown_account {
+  min-height: 50px;
+  transition: 0.3s;
+  width: 175px;
+  display:none;
+  background: white;
+  border: 1px solid #f3f3f3;
+  position: absolute;
+  left: -43.75px;
+  border-radius: 10px;
+  z-index: 200;
+  overflow:hidden ;
+  #account_drop, #menu-hoofdmenu, #menu-account {
+    width: 100%;
+    a {
+      font-size: 15px;
+      padding: 10px 20px;
+    }
+  }
+}
+
+
+#shopping {
+  &:hover > .dropdown_shopping {
+    transition: 0.3s;
+    display:block;
+  }
+}
+
+
+.dropdown_shopping {
+  min-height: 50px;
+  transition: 0.3s;
+  width: 175px;
+  display:none;
+  background: white;
+  border: 1px solid #f3f3f3;
+  position: absolute;
+  left: -25px;
+  text-align: left!important;
+  border-radius: 10px;
+  z-index: 200;
+  overflow:hidden ;
+  #shopping_drop, #menu-hoofdmenu, #menu-shopping {
+    width: 100%;
+    a {
+      font-size: 15px;
+      padding: 10px 20px;
+    }
+  }
+}
